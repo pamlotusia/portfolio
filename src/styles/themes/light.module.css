@@ -1,0 +1,15 @@
+:root {
+  --background: #ffffff;
+  --text: #111111;
+  --primary: #fd0d85;
+;
+  --secondary: #6c757d;
+
+  --border: #e0e0e0;
+  --card-bg: #f9f9f9;
+  --button-bg: #fd0d85;
+  --button-text: #ffffff;
+  --input-bg: #ffffff;
+
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
