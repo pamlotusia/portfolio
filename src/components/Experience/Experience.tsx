@@ -3,7 +3,7 @@ import { Title } from "../Title/Title";
 
 export const Experience = () => {
   return (
-    <section>
+    <section id="experience">
       <Title title="Experiência" />
       <JobExperience
         duration="Jan 2025 - Atual"

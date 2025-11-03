@@ -1,9 +1,9 @@
 import { Title } from "../Title/Title";
 import styles from './About.module.css'
-import image from '../../assets/pink_profile.jpg'
+import image from '../../assets/vermelho.jpeg'
 export const About = () => {
   return (
-    <section>
+    <section id="about">
       <Title title="Sobre mim" />
 
       <div className={styles.about_container}>

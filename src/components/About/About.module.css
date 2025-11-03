@@ -5,8 +5,8 @@
   gap: 10rem;
 }
 .about_image {
-  width: 300px;
-  height: 300px;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
 }
 

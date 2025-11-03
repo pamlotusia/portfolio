@@ -7,7 +7,7 @@
 
 .experience_title {
   width: 100vw;
-  max-width: fit-content;
+  max-width: 14rem;
 
   font-weight: bold;
   color: var(--primary);

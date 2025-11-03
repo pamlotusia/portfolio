@@ -5,7 +5,7 @@ import impacta from './../../assets/impacta.png'
 
 export const Formation = () => {
   return (
-    <section>
+    <section id="formation">
       <Title title="Formação" />
       <Education
         image={fiap}
