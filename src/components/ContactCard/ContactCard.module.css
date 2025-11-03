@@ -1,0 +1,31 @@
+.contact_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 2px solid var(--border);
+  padding: 1.5rem 1rem 1rem;
+  border-radius: 8px;
+
+  i {
+  font-size: 1.5rem;
+    color: var(--secondary);
+  }
+}
+
+.contact_card:hover{
+  border-color: var(--primary);
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.contact_card_title {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+  i {
+    font-size: 2rem;
+    color: var(--text);
+  }
+}

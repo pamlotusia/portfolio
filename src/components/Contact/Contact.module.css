@@ -1,0 +1,11 @@
+.contact_description {
+text-align: center;
+font-size: 1.4rem;
+margin: 5rem 0;
+}
+
+.contact_container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+}

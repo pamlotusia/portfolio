@@ -1,0 +1,28 @@
+.education_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  margin: 5rem 0 0;
+
+  img {
+    width: 90px;
+    border-radius: 8px;
+  }
+
+  border-bottom: 1px solid var(--border);
+
+  span{
+  font-weight: bold;
+  }
+}
+
+.education_title,
+.education_description {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+
