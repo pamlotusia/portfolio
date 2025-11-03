@@ -21,7 +21,6 @@ export const Main = () => {
         "ReactNative","Docker","AWS","Prisma"
       ]}
       speed={120}
-      className="bg-gray-50 rounded-lg"
     />,
     <About key="about" />,
     <Experience key="exp" />,

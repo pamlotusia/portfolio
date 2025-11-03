@@ -1,6 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
 import styles from "./Header.module.css";
-
 
 export const Header = () => {
   return (

@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-export default function RevealOnScroll({ children, delay = 0 }) {
+export default function RevealOnScroll({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1, // 10% do componente visível
+    threshold: 0.1, 
   });
 
   return (

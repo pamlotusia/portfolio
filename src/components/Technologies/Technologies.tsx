@@ -1,6 +1,11 @@
 import styles from "./Technologies.module.css";
+type TechnologiesProps = {
+  items: string[];
+  speed?: number; // opcional
+};
 
-export default function Technologies({ items }: { items: string[] }) {
+
+export default function Technologies({ items }: TechnologiesProps) {
   return (
     <div className={styles.scroll_container}>
       <div className={styles.scroll_content}>
