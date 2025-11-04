@@ -23,5 +23,6 @@ export default defineConfig([
       "@typescript-eslint/ban-ts-comment": "off",
       "@typescript-eslint/no-unused-vars": "off"
     },
+    ignores: ["**/*.module.css"],
   },
 ]);

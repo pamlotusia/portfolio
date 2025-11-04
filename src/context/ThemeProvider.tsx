@@ -1,9 +1,7 @@
 import { ThemeContext } from "./ThemeContext";
 import { useState, useEffect, type ReactNode } from "react";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import lightTheme from "../styles/themes/light.module.css";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import darkTheme from "../styles/themes/dark.module.css";
 
