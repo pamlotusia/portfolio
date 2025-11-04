@@ -38,8 +38,8 @@ section {
   margin: 0 auto;
 }
 
-p {
-  font-size: 1.8rem;
+p, a{
+  font-size: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -57,4 +57,5 @@ p {
     padding: 1rem;
     margin: 0 auto;
   }
+
 }

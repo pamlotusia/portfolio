@@ -5,13 +5,14 @@
   gap: 10rem;
 }
 .about_image {
-  width: 20rem;
-  height: 20rem;
+  width: 40rem;
+  height: auto;
   object-fit: cover;
 }
 
 .about_text p {
-  line-height: 2rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
   margin-bottom: 1.5rem;
 }
 
