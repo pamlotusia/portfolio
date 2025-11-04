@@ -31,3 +31,14 @@
     margin-top: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .experience_container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .experience_title {
+    max-width: 100%;
+  }
+}

@@ -19,3 +19,16 @@
   color: var(--primary);
   font-weight: bold;
 }
+
+@media (max-width: 400px) {
+  .about_container {
+    flex-direction: column;
+    gap: 2rem;
+
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

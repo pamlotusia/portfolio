@@ -1,7 +1,7 @@
 import styles from "./Technologies.module.css";
 type TechnologiesProps = {
   items: string[];
-  speed?: number; // opcional
+  speed?: number;
 };
 
 

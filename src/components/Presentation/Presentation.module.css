@@ -30,11 +30,26 @@
   transition: background 0.5s ease;
 }
 
-.presentation_techs{
-margin: 2rem 0;
-display: flex;
-gap: 2rem;
+.presentation_techs {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
 }
-.presentation_techs > *{
-font-size: 3rem;
+.presentation_techs > * {
+  font-size: 3rem;
+}
+
+@media (max-width: 400px) {
+  .presentation_container {
+    flex-direction: column;
+    gap: 2rem;
+
+    h1 {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
