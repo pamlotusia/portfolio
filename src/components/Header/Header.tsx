@@ -1,12 +1,25 @@
+import { useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi";
 import styles from "./Header.module.css";
 
 export const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className={styles.header}>
       <a href="#" className={styles.logo}>
         Pamela Lima <span>/</span>
       </a>
-      <ul>
+
+      <button
+        className={styles.menu_button}
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Abrir menu"
+      >
+        {menuOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+      </button>
+
+      <ul className={`${styles.nav} ${menuOpen ? styles.show : ""}`}>
         <li className={styles.scroll_item}>
           <a href="#about">Sobre</a>
         </li>
