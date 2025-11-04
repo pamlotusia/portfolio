@@ -1,8 +1,6 @@
 import { ThemeContext } from "./ThemeContext";
 import { useState, useEffect, type ReactNode } from "react";
-// @ts-expect-error: Import CSS module just to trigger bundling
 import lightTheme from "../styles/themes/light.module.css";
-// @ts-expect-error: Import CSS module just to trigger bundling
 import darkTheme from "../styles/themes/dark.module.css";
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
