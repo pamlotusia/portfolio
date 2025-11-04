@@ -1,4 +1,4 @@
-import { ThemeProvider } from "./context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeProvider"
 import { Main } from "./pages/Main/Main";
 import "./styles/globals.css";
 
