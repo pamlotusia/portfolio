@@ -1,4 +1,4 @@
-:global(.light-theme) {
+body.light-theme {
   --background: #ffffff;
   --text: #1e1e1e;
   --primary: #fd0d85;
