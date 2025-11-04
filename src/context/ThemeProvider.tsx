@@ -1,9 +1,7 @@
 import { ThemeContext } from "./ThemeContext";
 import { useState, useEffect, type ReactNode } from "react";
-// @ts-ignore
-import lightTheme from "../styles/themes/light.module.css";
-// @ts-ignore
-import darkTheme from "../styles/themes/dark.module.css";
+import "../styles/themes/light.module.css";
+import "../styles/themes/dark.module.css";
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
