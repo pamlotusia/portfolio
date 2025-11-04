@@ -1,3 +1,5 @@
+import "./styles/themes/light.module.css";
+import "./styles/themes/dark.module.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { ThemeProvider } from "./context/ThemeProvider.tsx"
